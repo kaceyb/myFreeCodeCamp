@@ -3,11 +3,11 @@ var app = new Vue({
   el: '#app',
   data: {
     search: '',
-    results: ''
+    results: '',
+    title: ''
   },
   watch: {
     search: function() {
-      this.search = '';
       if(this.search.length != null) {
         this.getJson();
       }
@@ -15,7 +15,19 @@ var app = new Vue({
   },
   methods: {
     getJson: _.debounce(function() {
-      this.results = 'Searching...';
+      var vm = this;
+      vm.results = 'Searching...';
+
+        axios.get(vm.search)
+          .then(function(response) {
+            vm.results = response.data;
+            console.log(vm.results);
+          })
+          .catch(function(error) {
+            vm.results = 'Invalid!';
+          })
+
     }, 500)
+
   }
 });
