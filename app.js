@@ -4,6 +4,7 @@ var app = new Vue({
   data: {
     search: '',
     results: '',
+    pages: '',
     title: ''
   },
   watch: {
@@ -21,6 +22,7 @@ var app = new Vue({
         axios.get(vm.search)
           .then(function(response) {
             vm.results = response.data;
+            vm.pages = response.data.query.pages;
             console.log(vm.results);
           })
           .catch(function(error) {
