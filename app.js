@@ -5,7 +5,8 @@ var app = new Vue({
     search: '',
     results: '',
     pages: '',
-    title: ''
+    // title: '',
+    link: 'https://en.wikipedia.org/?curid='
   },
   watch: {
     search: function() {
@@ -23,7 +24,7 @@ var app = new Vue({
           .then(function(response) {
             vm.results = response.data;
             vm.pages = response.data.query.pages;
-            console.log(vm.results);
+            // console.log(vm.results);
           })
           .catch(function(error) {
             vm.results = 'Invalid!';
