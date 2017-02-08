@@ -3,9 +3,8 @@ var app = new Vue({
   el: '#app',
   data: {
     search: '',
-    results: '',
+    // results: '',
     pages: '',
-    // title: '',
     link: 'https://en.wikipedia.org/?curid='
   },
   watch: {
