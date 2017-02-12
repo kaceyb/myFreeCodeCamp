@@ -3,7 +3,7 @@ var app = new Vue({
   el: '#app',
   data: {
     search: '',
-    // results: '',
+    results: '',
     pages: '',
     link: 'https://en.wikipedia.org/?curid='
   },
@@ -21,9 +21,9 @@ var app = new Vue({
 
         axios.get(vm.search)
           .then(function(response) {
-            vm.results = response.data;
+            vm.results = '';
             vm.pages = response.data.query.pages;
-            // console.log(vm.results);
+            console.log(vm.results);
           })
           .catch(function(error) {
             vm.results = 'Invalid!';
