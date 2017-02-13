@@ -8,7 +8,7 @@
   <body>
     <div id="app">
       <div class="flex-container">
-      <div class="row">
+      <div>
         <div class="random"><p><a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click for Random Wikipedia Page</a></p></div>
       <div class="searchBox">Enter Search Here:
         <input type="text" v-on:keydown.enter="search = 'https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=' + $event.target.value">
@@ -18,7 +18,7 @@
 
       <ul>
         <a v-bind:href="link + item.pageid" v-for="item in pages" target="_blank">
-          <li class="flex-item slideRight">
+          <li class="slideRight">
             <h4>{{ item.title }}</h4>
             <p>{{ item.extract }}</p>
           </li>
@@ -26,9 +26,6 @@
       </ul>
       </div>
       </div>
-      <!-- <p>{{ search }}</p> -->
-      <!-- <a target="_blank" v-bind:href="search">{{ search }}</a> -->
-
   </div>
   </body>
   <script src="https://unpkg.com/vue/dist/vue.js"></script>

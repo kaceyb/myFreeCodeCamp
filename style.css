@@ -8,15 +8,16 @@ body {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
   width: 95%;
-  /*width: 900px;*/
-  /*align-content: center;*/
+}
+
+#app {
+  margin: 0 auto;
+  width: 80%;
 }
 
 .flexbox-container {
   height: 100%;
-  /*width: 80%;*/
   padding: 0;
-  /*margin: 0;*/
   display: -webkit-box;
   display: -moz-box;
 	display: -ms-flexbox;
@@ -32,8 +33,6 @@ body {
    flex-direction: column;
    -webkit-justify-content: center;
    justify-content: center;
-
-   /*flex-wrap: wrap;*/
 }
 
 .random {
@@ -51,19 +50,9 @@ body {
   transform: translate(-50%, -50%)*/
 }
 
-.row {
-  /*width: auto;*/
-}
-
-.flex-item {
-  width: 89%;
-}
-
 ul {
   text-decoration: none;
-  margin-left: 1.5em;
-  /*width: 75%;*/
-  /*align-content: center;*/
+  /*margin-left: 1.5em;*/
 }
 
 li {
@@ -87,11 +76,6 @@ h3 {
 p {
   margin-top: 7px;
   padding: 0px;
-}
-div {
-  /*flex: 1 auto;*/
-  -webkit-flex-direction: column;
-   flex-direction: column;
 }
 
 a, a:visited {
