@@ -58,8 +58,8 @@ ul {
 li {
   background-color: #dadada;
   list-style-type: none;
-  padding: 7px;
-  margin: 15px;
+  padding: 6px;
+  margin-bottom: 17px;
   border-radius: 5px;
   box-shadow: 5px 5px 8px #032135;
   transition: transform 1s ease;
@@ -69,12 +69,13 @@ li {
   -webkit-transform: translate(1.5em,0);
 }
 
-h3 {
+h4 {
   margin: 0px;
   padding: 0px;
 }
 p {
-  margin-top: 7px;
+  margin: 0px;
+  margin-top: 2px;
   padding: 0px;
 }
 
