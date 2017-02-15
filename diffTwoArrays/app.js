@@ -20,6 +20,15 @@ function diffArray(arr1, arr2) {
       return;
     }
   });
+
+  second.forEach(function(item) {
+    if (!first.includes(item)) {
+      newArr.push(item);
+    } else {
+      return;
+    }
+  });
+  // console.log(newArr);
   return newArr;
 }
 
