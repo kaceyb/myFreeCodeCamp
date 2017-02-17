@@ -1,0 +1,250 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"allJoin"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"m",
+				"myJoin"
+			],
+			[
+				"t",
+				"toUpperCase"
+			],
+			[
+				"sub",
+				"subSplit"
+			],
+			[
+				"su",
+				"subSplit"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"re",
+				"repUnd"
+			],
+			[
+				"r",
+				"repStr"
+			],
+			[
+				"my",
+				"myStr"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"set",
+				"setGear"
+			],
+			[
+				"get",
+				"getGear"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 994.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1156.0
+	},
+	"console":
+	{
+		"height": 364.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/krazy/Documents/code/c/lcthw/ex1.c",
+		"/home/krazy/Documents/code/c/lcthw/Makefile",
+		"/home/krazy/Documents/code/FreeCodeCamp/BasicAlgorithmScripting/253-findLongestWord.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/BasicAlgorithmScripting/252-palindrome.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/BasicAlgorithmScripting/254-titleCase.js",
+		"/home/krazy/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/krazy/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/krazy/Documents/code/FreeCodeCamp/BasicAlgorithmScripting/250.html",
+		"/home/krazy/Documents/code/FreeCodeCamp/OOandFunctionalProgramming/245-reverse.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/OOandFunctionalProgramming/247-split.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/OOandFunctionalProgramming/243-filter.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/BasicAlgorithmScripting/250.js",
+		"/home/krazy/Documents/code/nodejs/HelloWorldHTTP/app.js",
+		"/home/krazy/Documents/code/nodejs/learnyounode/program.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/243-filter.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/244-sort.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/245-reverse.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/246-concatenate.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/247-split.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/248-join.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/240.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/243.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/241.js",
+		"/home/krazy/Documents/code/FreeCodeCamp/240.html",
+		"/home/krazy/.config/sublime-text-3/Packages/predawn-master/predawn.sublime-theme",
+		"/home/krazy/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/krazy/.config/sublime-text-3/Packages/predawn-master/predawn.tmTheme",
+		"/home/krazy/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 51.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"auto",
+			"console",
+			"minimap",
+			"Panel Options",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 51.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "250.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1250.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 950.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 374.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
