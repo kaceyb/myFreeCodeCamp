@@ -1,0 +1,19 @@
+body {
+  background-color: #656b6f;
+}
+
+.head {
+  text-align: center;
+}
+
+.panelHead {
+  background-color: #c9bfb1;
+}
+
+.myPanel {
+  margin: 50px;
+}
+
+.myBtn {
+  color: black;
+}

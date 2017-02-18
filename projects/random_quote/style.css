@@ -1,0 +1,46 @@
+#bg {
+  background-color: #b3e6cc;
+  text-shadow: 2px 1px 3px gray;
+  color: #004d00;
+  background-image: url("http://oi65.tinypic.com/seukb7.jpg");
+  background-size: 10%;
+  background-position: 9% 50%;
+  background-repeat: no-repeat;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #004d00;
+    color: white;
+    padding-top: 20px;
+}
+
+.boxBtn {
+
+  font-weight: bold;
+}
+
+.panel-pagination {
+    margin: 0 0 !important;
+}
+.panel-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    height:35px;
+}
+.abc{
+    height:35px;
+    display:table-cell !important;
+    vertical-align:middle;
+    font-size: small;
+}
+
+.quoteBox {
+  margin: 10px;
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: #b3e6cc;
+  color: #000;
+  border-radius: 5px;
+  font-size: small;
+}

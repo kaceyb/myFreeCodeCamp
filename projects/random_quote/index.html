@@ -1,0 +1,46 @@
+<body onload="document.getElementById('qt').innerHTML = store[rand()].quote; document.getElementById('person').innerHTML = store[rand()].person;">
+<div class="jumbotron text-right" id="bg" style="padding: 50px;">
+  <h1>Random Quote Generator</h1>
+  <p>Here are a few of my favorite quotes:</p>
+</div>
+<div class="container">
+<div class="row text-center">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="container-fluid panel-container">
+                <div class="col-xs-3 text-left">
+                  <span class="panel-title btn-group">
+                    <button id="tweet" type="button" class="btn btn-success btn-sm abc boxBtn">Tweet
+                    </button>
+                  </span>
+                </div>
+                <div class="col-xs-6 text-center ">
+                  <h2 class="panel-title" style="font-weight: bold;">Random Quotes</h2>
+                </div>
+                <div class="col-xs-3 text-right">
+                  <span class="panel-title btn-group">
+                    <button id="btnQuote" type="button" class="btn btn-success btn-sm abc boxBtn">Quote
+                    </button>
+                  </span>
+                </div>
+            </div>
+            <div>
+              <br>
+              <div class="quoteBox">
+              <p id="qt"></p>
+              <p class="text-right" id="person"></p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+  <div class="col-md-2"></div>
+</div>
+</div>
+</body

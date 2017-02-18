@@ -1,0 +1,23 @@
+{
+  "name": "fcc-weather_app",
+  "version": "1.0.0",
+  "description": "A web app to show weather for the current location. Will have an icon/image to match current weather. Can toggle between Fahrenheit or Celsius.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaceyb/weather.git"
+  },
+  "keywords": [
+    "fcc",
+    "weather"
+  ],
+  "author": "Kacey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaceyb/weather/issues"
+  },
+  "homepage": "https://github.com/kaceyb/weather#readme"
+}

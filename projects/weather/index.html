@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="getLocation();">
+  <div class="container">
+    <div class="row">
+
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panel-default myPanel center-block">
+          <div class="panelHead" style="padding: 5px;">
+            <h2 class="head"><strong>Current Weather</strong></h2>
+          </div>
+          <div class="panel-body text-center">
+            <p id="msg">Main Content Here</p>
+            <p id="tmp">Temp</p>
+            <p id="msg2"></p>
+            <p>
+              <button type="button" class="btn btn-warning" onclick="tempConvert();">Convert Temp &#8457;/&#8451;</button>
+              </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+      </div>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
